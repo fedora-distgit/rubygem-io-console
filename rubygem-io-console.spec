@@ -2,7 +2,7 @@
 %global gem_name io-console
 
 Name: rubygem-%{gem_name}
-Version: 0.5.11
+Version: 0.6.0
 Release: 1%{?dist}
 Summary: Console interface
 License: Ruby and BSD-2-Clause
@@ -67,5 +67,5 @@ popd
 %doc %{gem_instdir}/README.md
 
 %changelog
-* Wed Oct 12 2022 Pavel Valena <pvalena@redhat.com> - 0.5.11-1
+* Wed Oct 04 2023 Pavel Valena <pvalena@redhat.com> - 0.6.0-1
 - Initial package
